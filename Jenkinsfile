@@ -9,7 +9,7 @@ HOST_PORT = "5000"
 stages {
 stage('Checkout Code') {
 steps {
-git branch: 'master', url: 'https://github.com/fulldrill/onepage.git'
+git branch: 'master', url: 'https://github.com/fulldrill/onepagecv.git'
 }
 }
 
