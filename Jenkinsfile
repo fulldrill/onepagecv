@@ -3,7 +3,7 @@ agent any
 environment {
 IMAGE = "onepage-app:${env.BUILD_NUMBER}"
 CONTAINER_NAME = "bee-onepage-cv"
-HOST_PORT = "5000"
+HOST_PORT = "5001"
 }
 
 stages {
